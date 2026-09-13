@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pokedex-scanner-pokemon"
+version = "0.1.0"
+description = "Match OCR observations to Pokémon catalog records"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = ["fastapi>=0.115,<1", "pydantic>=2.8,<3", "uvicorn>=0.30,<1"]
+
+[project.optional-dependencies]
+dev = ["httpx>=0.27,<1", "pytest>=8,<9", "ruff>=0.6,<1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
