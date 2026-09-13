@@ -1,0 +1,8 @@
+[
+  {"number": 1, "name": "Bulbasaur", "category": "Seed Pokémon", "aliases": ["Fushigidane"]},
+  {"number": 4, "name": "Charmander", "category": "Lizard Pokémon", "aliases": ["Hitokage"]},
+  {"number": 7, "name": "Squirtle", "category": "Tiny Turtle Pokémon", "aliases": ["Zenigame"]},
+  {"number": 25, "name": "Pikachu", "category": "Mouse Pokémon", "aliases": ["Pikachuu"]},
+  {"number": 133, "name": "Eevee", "category": "Evolution Pokémon", "aliases": ["Eievui"]},
+  {"number": 143, "name": "Snorlax", "category": "Sleeping Pokémon", "aliases": ["Kabigon"]}
+]
